@@ -33,3 +33,15 @@ func anyCommonElements <T, U where T: SequenceType, U: SequenceType, T.Generator
     return false
 }
 anyCommonElements([1, 2, 3], [3])
+
+var data = NSData()
+var stri: NSString? = NSString(data: data, encoding: NSUTF8StringEncoding)
+if let s = stri{
+    println(s)
+}
+
+
+
+
+
+
